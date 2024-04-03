@@ -38,7 +38,7 @@ jobs:
           python -m pytest tests/tests_iris -v
       - name: Test with pytest (Dash paralympics)
         run: |
-          python -m pytest tests/testt_paralympics_dash -v
+          python -m pytest tests/tests_paralympics_dash -v
       - name: Test with pytest (Flask paralympics app)
         run: |
           python -m pytest tests/tests_paralympics_flask -v
